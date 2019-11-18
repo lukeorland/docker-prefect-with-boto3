@@ -1,4 +1,4 @@
-FROM prefecthq/prefect:0.7.1-python3.7
+FROM prefecthq/prefect:0.7.2-python3.7
 
 RUN pip install \
     'python-dateutil<2.8.1' \
