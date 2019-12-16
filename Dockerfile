@@ -1,5 +1,5 @@
-FROM prefecthq/prefect:0.7.2-python3.7
+FROM prefecthq/prefect:0.8.0-python3.7
 
 RUN pip install \
     'python-dateutil<2.8.1' \
-    git+https://github.com/PrefectHQ/prefect.git@${PREFECT_VERSION}#egg=prefect[aws,kubernetes]
+    'prefect[aws,kubernetes]==0.8.0'
