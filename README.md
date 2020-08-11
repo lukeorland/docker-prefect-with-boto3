@@ -4,6 +4,6 @@
 
 ```
 docker login
-docker build . --tag lukeorland/prefect-with-boto3:0.9.4
-docker push lukeorland/prefect-with-boto3:0.9.4
+docker build . --tag lukeorland/prefect-with-boto3:0.13.1
+docker push lukeorland/prefect-with-boto3:0.13.1
 ```

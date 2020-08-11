@@ -1,3 +1,3 @@
-FROM prefecthq/prefect:0.9.4-python3.7
+FROM prefecthq/prefect:0.13.1-python3.8
 
-RUN pip install 'prefect[aws,kubernetes]==0.9.4'
+RUN pip install 'prefect[aws,kubernetes]==0.13.1'
